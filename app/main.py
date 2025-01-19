@@ -15,7 +15,7 @@ async def lifespan(app: FastAPI):
 
 def get_application():
     _app = FastAPI(
-        title="test",
+        title="URL Shortener",
         lifespan=lifespan,
     )
 
