@@ -1,0 +1,21 @@
+pre-commit==3.6.0
+flake8
+
+#for fastapi
+fastapi==0.95.2
+uvicorn==0.12.2
+orjson==3.9.14
+pydantic[email]
+
+#for routing
+starlette==0.27.0
+requests==2.31.0
+
+python-dotenv==1.0.0
+pydantic==1.10.7
+passlib==1.7.4
+python-jose==3.3.0
+asgiref==3.6.0
+aiohttp[speedups]==3.8.4
+
+
